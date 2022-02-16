@@ -1,0 +1,33 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size:100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 200px;
+  height: 10px;
+  background-color: black;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexbox-item {
+  background-color: #f7f7f7;
+  border: 1px dashed black;
+  width: 16.66%;
+  box-sizing: border-box;
+}
+
+.bigger {
+  width: 50%;
+}
